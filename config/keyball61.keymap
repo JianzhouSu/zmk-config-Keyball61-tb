@@ -44,9 +44,9 @@
         function_layer {
             bindings = <
 &kp GRAVE  &kp F1  &kp F2    &kp F3    &kp F4     &kp F5                                  &kp F6    &kp F7         &kp F8     &kp F9   &kp F10  &kp DEL
-&trans     &trans  &trans    &kp UP    &trans     &trans                                  &trans    &kp MINUS      &kp EQUAL  &kp F11  &kp F12  &trans
-&trans     &trans  &kp DOWN  &kp DOWN  &kp RIGHT  &kp C_VOL_UP                            &kp HOME  &kp LBKT       &kp RBKT   &trans   &trans   &trans
-&trans     &trans  &trans    &trans    &trans     &kp C_VOL_DN  &kp K_MUTE  &kp LC(LEFT)  &kp END   &kp LC(RIGHT)  &trans     &trans   &trans   &trans
+&trans     &none   &none     &kp UP    &none      &none                                   &none     &kp MINUS      &kp EQUAL  &kp F11  &kp F12  &none
+&trans     &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp C_VOL_UP                            &kp HOME  &kp LBKT       &kp RBKT   &none    &none    &none
+&trans     &none   &none     &none     &none      &kp C_VOL_DN  &kp K_MUTE  &kp LC(LEFT)  &kp END   &kp LC(RIGHT)  &none      &none    &none    &trans
 &trans     &trans  &trans    &trans    &trans     &trans        &trans      &trans        &trans                                       &trans   &trans
             >;
 
@@ -56,33 +56,33 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans     &trans     &trans    &trans  &trans  &kp INS
-&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans                        &trans     &kp UNDER  &kp PLUS  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans                        &kp PG_UP  &kp LBRC   &kp RBRC  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans        &trans  &trans  &kp PG_DN  &trans     &trans    &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                  &trans  &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &none      &none      &none     &none  &none   &kp INS
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none                                 &none      &kp UNDER  &kp PLUS  &none  &none   &none
+&trans     &none         &none           &none         &none         &none                                 &kp PG_UP  &kp LBRC   &kp RBRC  &none  &none   &none
+&trans     &none         &none           &none         &none         &none         &studio_unlock  &none   &kp PG_DN  &none      &none     &none  &none   &trans
+&trans     &trans        &trans          &trans        &trans        &trans        &trans          &trans  &trans                                 &trans  &trans
             >;
         };
 
         numpad_layer {
             label = "NUM";
             bindings = <
-&trans  &trans  &trans   &trans   &trans   &trans                    &kp KP_NUM  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE    &kp KP_ASTERISK
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                    &trans      &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_SUBTRACT  &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                    &kp UP      &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_PLUS      &trans
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_N0  &kp KP_DOT  &kp KP_ENTER     &trans
-&trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans    &trans                                        &trans           &trans
+&none   &none   &none    &none    &none    &none                     &kp KP_NUM  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE    &kp KP_ASTERISK
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &none                     &none       &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_SUBTRACT  &none
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &none                     &kp UP      &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_PLUS      &none
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &none   &none   &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_N0  &kp KP_DOT  &kp KP_ENTER     &trans
+&trans  &trans  &to 0    &trans   &trans   &trans  &trans  &trans    &trans                                        &trans           &trans
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans    &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans    &trans     &trans  &trans     &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &mkp MB5  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &mkp MB4  &trans     &mo 6   &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &mo 3                                   &trans     &trans
+&trans  &trans  &trans    &trans    &trans     &trans                  &trans    &trans     &trans  &trans     &trans     &trans
+&trans  &trans  &trans    &kp UP    &trans     &trans                  &trans    &trans     &trans  &trans     &trans     &trans
+&trans  &trans  &kp DOWN  &kp DOWN  &kp RIGHT  &trans                  &mkp MB5  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mkp MB4  &trans     &mo 6   &trans     &trans     &trans
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mo 3                                   &trans     &trans
             >;
         };
 
