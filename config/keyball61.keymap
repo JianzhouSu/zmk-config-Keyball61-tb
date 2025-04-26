@@ -80,8 +80,8 @@
             bindings = <
 &trans  &trans  &trans    &trans    &trans     &trans                  &trans  &trans     &trans  &trans     &trans     &trans
 &trans  &trans  &trans    &kp UP    &trans     &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &kp DOWN  &kp DOWN  &kp RIGHT  &trans                  &none   &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &none   &mkp MB4   &mo 6   &mkp MB5   &trans     &trans
+&trans  &trans  &kp DOWN  &kp DOWN  &kp RIGHT  &trans                  &none   &mkp LCLK  &mo 6   &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &none   &mkp MB4   &mo 5   &mkp MB5   &trans     &trans
 &trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mo 3                                 &trans     &trans
             >;
         };
@@ -91,8 +91,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mo 6   &mkp MB5   &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mo 5   &mkp MB5   &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans     &trans
             >;
         };
@@ -102,8 +102,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mo 6   &mkp MB5   &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mo 5   &mkp MB5   &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans     &trans
             >;
         };
