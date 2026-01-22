@@ -78,33 +78,33 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans    &trans    &trans     &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans    &kp UP    &trans     &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &none   &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &none
-&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &none   &mkp MB4   &mo 6   &mkp MB5   &none      &trans
-&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans                                &trans     &trans
+&trans  &trans  &trans    &trans    &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
+&trans  &trans  &trans    &kp UP    &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 5   &trans     &trans    &none
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MB5  &trans
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans                                  &trans    &trans
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans    &trans    &trans     &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans    &kp UP    &trans     &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &none   &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &none
-&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &none   &mkp MB4   &mo 6   &mkp MB5   &none      &trans
-&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans                                &trans     &trans
+&trans  &trans  &trans    &trans    &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
+&trans  &trans  &trans    &kp UP    &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 5   &trans     &trans    &none
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MB5  &trans
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans                                  &trans    &trans
             >;
         };
 
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans    &trans        &trans     &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans    &kp UP_ARROW  &trans     &trans                  &trans  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans                  &none   &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &none
-&trans  &trans  &trans    &trans        &trans     &trans  &trans  &trans  &none   &mkp MB4   &mo 6   &mkp MB5   &none      &trans
-&trans  &trans  &trans    &trans        &trans     &trans  &trans  &trans  &trans                                &trans     &trans
+&trans  &trans  &trans    &trans        &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
+&trans  &trans  &trans    &kp UP_ARROW  &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 5   &trans     &trans    &none
+&trans  &trans  &trans    &trans        &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MB5  &trans
+&trans  &trans  &trans    &trans        &trans     &trans  &trans  &trans  &trans                                  &trans    &trans
             >;
         };
     };
