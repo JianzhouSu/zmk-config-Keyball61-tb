@@ -80,8 +80,8 @@
             bindings = <
 &trans  &trans  &trans    &trans    &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
 &trans  &trans  &trans    &kp UP    &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 5   &trans     &trans    &none
-&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MB5  &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 6   &trans     &trans    &none
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MB5  &trans
 &trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans                                  &trans    &trans
             >;
         };
@@ -91,8 +91,8 @@
             bindings = <
 &trans  &trans  &trans    &trans    &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
 &trans  &trans  &trans    &kp UP    &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 5   &trans     &trans    &none
-&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MB5  &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 6   &trans     &trans    &none
+&trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MB5  &trans
 &trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans                                  &trans    &trans
             >;
         };
@@ -102,8 +102,8 @@
             bindings = <
 &trans  &trans  &trans    &trans        &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
 &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans                  &trans    &trans     &trans  &trans     &trans    &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 5   &trans     &trans    &none
-&trans  &trans  &trans    &trans        &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MB5  &trans
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans                  &none     &mkp MCLK  &mo 6   &trans     &trans    &none
+&trans  &trans  &trans    &trans        &trans     &trans  &trans  &trans  &mkp MB4  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MB5  &trans
 &trans  &trans  &trans    &trans        &trans     &trans  &trans  &trans  &trans                                  &trans    &trans
             >;
         };
