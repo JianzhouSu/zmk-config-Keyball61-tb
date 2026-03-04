@@ -281,7 +281,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
-  - SCROLL
+  - SNIPE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -295,7 +295,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
   - $$mdi:mouse-left-click-outline$$
-  - SNIPE
+  - SCROLL
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -343,7 +343,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
-  - {t: SCROLL, type: held alternate}
+  - SNIPE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -357,7 +357,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
   - $$mdi:mouse-left-click-outline$$
-  - SNIPE
+  - {t: SCROLL, type: held alternate}
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -405,7 +405,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
-  - {t: SCROLL, type: held alternate}
+  - {t: SNIPE, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -419,7 +419,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
   - $$mdi:mouse-left-click-outline$$
-  - {t: SNIPE, type: held alternate}
+  - {t: SCROLL, type: held alternate}
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
